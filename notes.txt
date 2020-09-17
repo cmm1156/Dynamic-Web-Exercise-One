@@ -1,0 +1,22 @@
+
+
+
+
+2.
+
+
+
+
+-------
+NPM Commands / Yarn Commands
+
+npm run
+    - Runs a script as defined in your package.json file
+    - example: npm run start
+
+npm install
+    - installs all of your packages into your node_modules folder
+
+
+
+You will never touch mode_modules unless to delete and reinstall
