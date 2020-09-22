@@ -7,12 +7,28 @@
   font-size: 70px;
 }
 
+.ArticleListing h1 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
 .ArticleCard {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  margin: 10px 0;
+  margin: 50px 0;
   padding: 25px 30px; /* top  right  bottom  left*/
+}
+
+.ArticleCardText h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.ArticleCard a {
+  font-weight: bold;
 }
 
 .ArticleCardImage {
@@ -28,6 +44,49 @@
   flex-basis: 70%;
 }
 
+.Article {
+}
+
+.ArticleHeaderWrapper {
+  background-color: #c3c3c3;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+  padding-bottom: 45px;
+  padding-top: 65px;
+}
+
+.ArticleHeader {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.ArticleHeader h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.ArticleHeaderBlurb {
+  font-size: 20px;
+}
+
+.ArticleBody {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+*/
 /*
 Classes: .class
 IDs: #id // NEVER USE THESE IN CSS!! There is no advantage to using ids for styling
