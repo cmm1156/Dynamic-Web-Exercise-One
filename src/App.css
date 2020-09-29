@@ -1,10 +1,16 @@
 .App {
-  margin: 0 auto;
-  max-width: 1080px;
+  /* margin: 0 auto;
+  max-width: 1080px; */
+  font-family: "Roboto", sans-serif;
 }
 
 .App h1 {
   font-size: 70px;
+}
+
+.ArticleListing {
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 .ArticleListing h1 {
@@ -20,14 +26,21 @@
   padding: 25px 30px; /* top  right  bottom  left*/
 }
 
+.ArticleCardText p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 .ArticleCardText h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 32px;
   margin: 0;
+  /* margin-bottom: -5px; */
 }
 
 .ArticleCard a {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -54,6 +67,12 @@
   margin-bottom: 40px;
   padding-bottom: 45px;
   padding-top: 65px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ArticleHeaderWrapper img {
+  width: 100%;
 }
 
 .ArticleHeader {
@@ -64,15 +83,39 @@
 .ArticleHeader h1 {
   font-size: 48px;
   margin: 0;
+  font-weight: 400;
+  margin-bottom: -5px;
+}
+
+.ArticleHeader p {
+  font-weight: 400;
 }
 
 .ArticleHeaderBlurb {
+  text-decoration: black;
   font-size: 20px;
+  margin-bottom: 0px;
 }
 
 .ArticleBody {
   margin: 0 auto;
   max-width: 600px;
+  text-decoration: black;
+}
+
+.ArticleBody p {
+}
+
+.ArticleBody h2 {
+  font-size: 32px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  padding-bottom: 10px;
+}
+
+.ArticleBody h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*
